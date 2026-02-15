@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Draft AI - Email Writer Assistant",
-  "version": "1.0.0",
-  "description": "AI powerd email reply assistant",
+  "version": "1.0.1",
+  "description": "AI-powered email reply assistant",
   "permissions": ["activeTab", "storage"],
   "host_permissions": ["http://localhost:8080/*", "*://mail.google.com/*", "https://draft-ai-t17k.onrender.com/*"],
   "content_scripts": [
@@ -20,6 +20,18 @@
     }
   ],
   "action": {
-    "default_title": "Email Writer Assistant"
+    "default_title": "Draft AI - Email Writer Assistant",
+    "default_icon": {
+      "16": "icons/logo.png",
+      "32": "icons/logo.png",
+      "48": "icons/logo.png",
+      "128": "icons/logo.png"
+    }
+  },
+  "icons": {
+    "16": "icons/logo.png",
+    "32": "icons/logo.png",
+    "48": "icons/logo.png",
+    "128": "icons/logo.png"
   }
 }
