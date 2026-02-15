@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "AI powerd email reply assistant",
   "permissions": ["activeTab", "storage"],
-  "host_permissions": ["http://localhost:8080/*", "*://mail.google.com/*", "*://*.onrender.com/*"],
+  "host_permissions": ["http://localhost:8080/*", "*://mail.google.com/*", "https://draft-ai-t17k.onrender.com/*"],
   "content_scripts": [
     {
       "js": ["content.js"],

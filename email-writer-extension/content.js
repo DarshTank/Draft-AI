@@ -2,7 +2,8 @@
 // Configuration:
 // For local development, use: "http://localhost:8080"
 // For production (Render), use: "https://<your-app-name>.onrender.com"
-const API_URL = "http://localhost:8080"; 
+// Producton URL provided by user
+const API_URL = "https://draft-ai-t17k.onrender.com";  
 
 console.log("Draft AI - Email Writer Extension Loaded");
 
